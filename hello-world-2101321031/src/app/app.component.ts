@@ -9,5 +9,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'hello-world-2101321031';
+  public personalInformation = "Павлин Минков, Студент Софтуерно Инженерство 3ти курс";
+  public hobies = "Гледане на филми, Баскетбол";
+  public favoriteCreatorLink = "https://www.youtube.com/@TomScottGo";
+  public personalChannelDescription = "Код и кафе - кратки клипове съдържащи последните новини в програмирането всяка сутрин";
+  public evaluation = 0.10;
 }
