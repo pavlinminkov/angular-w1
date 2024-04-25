@@ -1,0 +1,2 @@
+<p (click)="showSecondParagraph = !showSecondParagraph" class="title">{{showSecondParagraph ? "↓" : "→"}}{{ firstParagraph }}</p>
+<p *ngIf="showSecondParagraph" class="content">{{ secondParagraph }}</p>
