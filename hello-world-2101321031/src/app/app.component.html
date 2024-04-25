@@ -1,7 +1,22 @@
 <div>
-  <p>Информация за мен: {{ personalInformation }}</p>
-  <p>Хобита и интереси: {{ hobies }}</p>
-  <p><a [href]="favoriteCreatorLink" target="_blank">Линк към любим conter creator</a></p>
-  <p>Информация за моя канал: {{ personalChannelDescription }}</p>
-  <p>Примерно остойностяване: {{ evaluation }} лв.</p>
+  <app-toggle-paragraph
+    [firstParagraph]="'Информация за мен'"
+    [secondParagraph]="personalInformation"
+  ></app-toggle-paragraph>
+  <app-toggle-paragraph
+    [firstParagraph]="'Хобита и интереси'"
+    [secondParagraph]="hobies"
+  ></app-toggle-paragraph>
+  <app-toggle-paragraph
+    [firstParagraph]="'Линк към любим conter creator'"
+    [secondParagraph]="favoriteCreatorLink"
+  ></app-toggle-paragraph>
+  <app-toggle-paragraph
+    [firstParagraph]="'Информация за моя канал'"
+    [secondParagraph]="personalChannelDescription"
+  ></app-toggle-paragraph>
+  <app-toggle-paragraph
+    [firstParagraph]="'Примерно остойностяване'"
+    [secondParagraph]="evaluation"
+  ></app-toggle-paragraph>
 </div>
